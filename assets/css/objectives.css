@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------
+# Objectives
+--------------------------------------------------------------*/
+.objectives .objectives-card {
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+    background: var(--altpro_rgbg-green-white);
+    border: none;
+    margin: none;
+  }
+  
+  .objectives .objectives-card .objectives-card-bottom {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  
+  .objectives .objectives-card .objectives-card-bottom h4 {
+    font-weight: 600;
+    margin: 10px 10px;
+    font-size: 22px;
+    color: var(--altpro_rgbg-dark-gray);
+    height: 50%;
+    padding: 0 5px;
+  }
+  
+  .objectives .objectives-card .objectives-card-bottom p {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: var(--altpro_rgbg-green-white);
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .objectives .objectives-card:hover {
+    border-color: var(--altpro_rgbg-green-white);
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .objectives .objectives-color-1 {
+      background-color: var(--header-color);
+  }
+
+  .objectives .objectives-color-2 {
+      background-color: var(--altpro_rgbg-secondary-color);
+  }

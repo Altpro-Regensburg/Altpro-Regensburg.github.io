@@ -1,0 +1,143 @@
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact-bg {
+    background-color: var(--altpro_rgbg-dark-gray);
+  }
+  
+  .contact .section-title {
+    color: var(--accent-color);
+  }
+  
+  .contact .info-box {
+    color: var(--altpro_rgbg-dark-gray);
+    text-align: center;
+    padding: 10px 0 20px 0;
+  }
+  
+  .contact .info-box i {
+    font-size: 32px;
+    color: var(--altpro_rgbg-green-white);
+    border-radius: 50%;
+    padding: 8px;
+  }
+  
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: var(--altpro_rgbg-green-white);
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .contact .info-box p {
+    color: var(--altpro_rgbg-main-color);
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .contact .email-form {
+    padding: 0 30px;
+  }
+  
+  .contact .email-form .error-message {
+    display: none;
+    color: var(--altpro_rgbg-green-white);
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .email-form .error-message br + br {
+    margin-top: 25px;
+  }
+  
+  .contact .email-form .sent-message {
+    display: none;
+    color: var(--altpro_rgbg-green-white);
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .contact .email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: var(--altpro_rgbg-green-white);
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .email-form input, .contact .email-form textarea {
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 14px;
+    background-color: var(--altpro_rgbg-dark-gray);
+    color: var(--altpro_rgbg-green-white);
+  }
+  
+  .contact .email-form label {
+    color: var(--altpro_rgbg-green-white);
+    font-weight: bold;
+    margin-bottom: -7px;
+    background-color: var(--altpro_rgbg-dark-gray);
+  }
+  
+  .contact .email-form input:focus, .contact .email-form textarea:focus {
+    border-color: var(--accent-color);
+  }
+  
+  .contact .email-form input {
+    padding: 10px 15px;
+  }
+  
+  .contact .email-form textarea {
+    padding: 12px 15px;
+  }
+  
+  .contact .email-form button[type="submit"] {
+    background: var(--accent-color);
+    border: 0;
+    padding: 10px 24px;
+    color: var(--altpro_rgbg-green-white);
+    transition: 0.4s;
+    border-radius: 5px;
+  }
+  
+  .contact .email-form button[type="submit"]:hover {
+    background: var(--altpro_rgbg-dark-red);
+  }
+  
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

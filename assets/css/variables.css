@@ -1,0 +1,35 @@
+:root {
+    /*
+        Alt.Pro Regensburg Color Scheme
+    */
+    --altpro_rgbg-main-color: #ff6e86;
+    --altpro_rgbg-secondary-color: #ffc6cd;
+    --altpro_rgbg-dark-red: #4f131d;
+    --altpro_rgbg-dark-blue: #7196ab;
+    --altpro_rgbg-light-blue: #97d4f7;
+    --altpro_rgbg-yellow: #f7f7c8;
+    --altpro_rgbg-reddish-brown: #ab686c;
+    --altpro_rgbg-light-brown: #d8b3ac;
+    --altpro_rgbg-mid-brown: #a06e64;
+    --altpro_rgbg-dark-brown: #835a5f;
+    --altpro_rgbg-light-rose: #fad1d3;
+    --altpro_rgbg-dark-rose: #f8b1b5;
+    --altpro_rgbg-green-white: #fefff8;
+    --altpro_rgbg-off-white: #fcf0e7;
+    --altpro_rgbg-dark-gray: #2b2b2b;
+
+    /*
+        Alt.Pro Regensburg Fonts
+    */
+    --altpro_rgbg-serif-font: 'Radley', serif;
+    --altpro_rgbg-bold-sans-font: 'Palanquin', sans-serif;
+    --altpro_rgbg-sans-font: 'Montserrat', sans-serif;
+
+    /*
+        Website Color Scheme
+    */
+    --header-color: var(--altpro_rgbg-main-color);
+    --accent-color: var(--altpro_rgbg-main-color);
+
+
+}

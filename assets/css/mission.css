@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------
+# Mission
+--------------------------------------------------------------*/
+.mission {
+    padding: 120px 0;
+  }
+  
+  .mission .content {
+    background-color: var(--altpro_rgbg-main-color);
+    border-radius: 4px;
+  }
+  
+  .mission .content h3 {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--altpro_rgbg-green-white);
+  }
+  
+  .mission .content p {
+    color: var(--altpro_rgbg-green-white);
+  }
+  
+  .mission .content p:last-child {
+    margin-bottom: 0;
+  }
