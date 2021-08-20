@@ -1,0 +1,48 @@
+{
+    "members": [
+        {
+            "group": "founders",
+            "people": [
+                {
+                    "name": "Niklas Kroner-Weigl",
+                    "image": "niklas_kroner-weigl.webp",
+                    "title": "Co-Founder",
+                    "description": "Niklas is one of the four co-founders of The Regensburg Alt. Protein Project. He had the idea of founding the group at the University of Regensburg and is stoked that the Alt.Pro is now finally able to kick off."
+                },
+                {
+                    "name": "Juliane Bernhard",
+                    "image": "juliane_bernhard.webp",
+                    "title": "Co-Founder",
+                    "description": "Juliane is studying Molecular Medicine and is in charge of our social media posts. The moment she heard it might be possible to taste the meat of dinosaurs in the future she wanted to support the development of cultivated meat."
+                },
+                {
+                    "name": "Anna-Lena Mader",
+                    "image": "anna-lena_mader.webp",
+                    "title": "Co-Founder",
+                    "description": "Lena is a trained medical laboratory assistent and currently studying Molecular Medicine. She is passioned about the idea of cultivated meat and other alternative protein sources as an opportunity to shape society's view on animal rights and environmental protection."
+                },
+                {
+                    "name": "Lucas Reibenspies",
+                    "image": "lucas_reibenspies.webp",
+                    "title": "Co-Founder",
+                    "description": "Lucas is also pursuing his bachelor’s degree in Molecular Medicine. Being a part of The Regensburg Alt. Protein Project, he hopes not only to advance research in the field of alternative protein and the public acceptance of its products, but to again enjoy his favorite dishes in the future."
+                }
+            ]
+        },
+        {
+            "group": "normies",
+            "people": [
+                {
+                    "name": "Jonathan Weiß",
+                    "title": "Member",
+                    "description": ""
+                },
+                {
+                    "name": "Trang Hoang",
+                    "title": "Member",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
