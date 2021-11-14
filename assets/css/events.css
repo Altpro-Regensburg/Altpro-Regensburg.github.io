@@ -1,6 +1,47 @@
 /*--------------------------------------------------------------
 # events
 --------------------------------------------------------------*/
+
+#events .btn-main-link {
+  font-family: var(--altpro_rgbg-bold-sans-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  border: 2px solid var(--accent-color);
+  background: var(--accent-color);
+  color: var(--altpro_rgbg-green-white);
+}
+
+#events .btn-main-link:hover {
+  background: none;
+  color: var(--accent-color);
+}
+
+#events .btn-additional-link {
+  font-family: var(--altpro_rgbg-bold-sans-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 28px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid var(--accent-color);
+  background: var(--altpro_rgbg-green-white);
+  color: var(--accent-color);
+}
+
+#events .btn-additional-link:hover {
+  background: var(--accent-color);
+  color: var(--altpro_rgbg-green-white);
+}
+
 .events .icon-box {
     text-align: center;
     padding: 70px 20px 80px 20px;
