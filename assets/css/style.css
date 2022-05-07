@@ -9,6 +9,7 @@
 @import "contact.css";
 @import "events.css";
 @import "objectives.css";
+@import "offener_brief.css";
 
 /*--------------------------------------------------------------
 # General
@@ -23,13 +24,18 @@ a {
   text-decoration: none;
 }
 
+b {
+  font-family: var(--altpro_rgbg-serif-font);
+  color: var(--altpro_rgbg-main-color);
+}
+
 a:hover {
   color: var(--altpro_rgbg-dark-red);
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--altpro_rgbg-serif-font)
+  font-family: var(--altpro_rgbg-serif-font);
 }
 
 /*--------------------------------------------------------------
